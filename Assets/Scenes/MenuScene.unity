@@ -440,7 +440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &535874867
 RectTransform:
   m_ObjectHideFlags: 0
@@ -722,7 +722,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Result
+  m_Text: Hasil
 --- !u!222 &588558626
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1367,16 +1367,16 @@ RectTransform:
   m_GameObject: {fileID: 1460550553}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2307495, y: 3.04, z: 0.9667}
+  m_LocalScale: {x: 1.7845868, y: 3.04, z: 0.9667}
   m_Children:
   - {fileID: 588558624}
   m_Father: {fileID: 834395735}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7068889, y: 0.0154375015}
-  m_AnchorMax: {x: 1, y: 0.09200001}
-  m_AnchoredPosition: {x: -3, y: -1.2999878}
-  m_SizeDelta: {x: -51, y: -66}
+  m_AnchorMin: {x: 0.586, y: 0.0154375015}
+  m_AnchorMax: {x: 0.9791666, y: 0.08418751}
+  m_AnchoredPosition: {x: -2, y: 3.7000122}
+  m_SizeDelta: {x: -123, y: -56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1460550555
 MonoBehaviour:
@@ -1417,7 +1417,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1460550556}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1782213828}
+        m_MethodName: Quiz
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1460550556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1535,6 +1546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782213826}
   - component: {fileID: 1782213827}
+  - component: {fileID: 1782213828}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -1566,6 +1578,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0dc71eccc48d26344a897647b0d74a6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizPanel: {fileID: 0}
+--- !u!114 &1782213828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782213825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24633195ef72fee40b3a7cec8f704862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1784905101
@@ -1959,16 +1984,16 @@ RectTransform:
   m_GameObject: {fileID: 1903638177}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2865, y: 3.04, z: 1}
+  m_LocalScale: {x: 1.7850188, y: 3.04, z: 1}
   m_Children:
   - {fileID: 1840519852}
   m_Father: {fileID: 834395735}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02222222, y: 0.0154375015}
-  m_AnchorMax: {x: 0.293, y: 0.09200001}
-  m_AnchoredPosition: {x: -0.5, y: -1.7999878}
-  m_SizeDelta: {x: -35, y: -67}
+  m_AnchorMax: {x: 0.411, y: 0.08418751}
+  m_AnchoredPosition: {x: -1.5, y: 3.2000122}
+  m_SizeDelta: {x: -120, y: -57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1903638179
 MonoBehaviour:
@@ -2009,7 +2034,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1903638180}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1782213828}
+        m_MethodName: Book
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1903638180
 MonoBehaviour:
   m_ObjectHideFlags: 0

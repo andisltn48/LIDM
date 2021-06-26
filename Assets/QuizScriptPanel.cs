@@ -12,7 +12,6 @@ public class QuizScriptPanel : MonoBehaviour
     public static int tempototal = 0;
     public static int fixtotal = 0;
     private int result;
-    public static string nameBook;
     public static int benar = 0;
     public static int salah = 0;
     public GameObject soal1, soal2, soal3, soal4, soal5, next, submit, panelHasil;
@@ -40,13 +39,14 @@ public class QuizScriptPanel : MonoBehaviour
                 if (RadioButtonScript.nums == nilai[i])
                 {
                     benar = benar + 1;
-                    RadioButtonScript.nums = 0;
                     tempototal = tempototal + 20;
                 }
                 else
                 {
                     salah = salah + 1;
                 }
+
+                RadioButtonScript.nums = 9;
             }
         }
         Debug.Log("Nilai:" + tempototal);
@@ -104,7 +104,8 @@ public class QuizScriptPanel : MonoBehaviour
 
         fixtotal = tempototal;
         Debug.Log(fixtotal);
-        nameBook = BookController.nameBook;
+        HasilScript.nameBooks.Add(BookController.nameBook);
+        HasilScript.nilaiOfBook.Add(fixtotal);
         panelHasil.SetActive(true);
         nilaiAkhir.text = fixtotal.ToString();
         benarValue.text = benar.ToString();

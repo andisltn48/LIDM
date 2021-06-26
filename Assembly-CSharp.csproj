@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D001C6FB-E6B1-59BF-5B52-388D37EC4037}</ProjectGuid>
+    <ProjectGuid>{A0AD1331-8E6C-F117-B8D9-125F1AD6D5F5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BookController.cs" />
+    <Compile Include="Assets\HasilScript.cs" />
     <Compile Include="Assets\InputScript.cs" />
     <Compile Include="Assets\NavbarScript.cs" />
     <Compile Include="Assets\QuizScript.cs" />
@@ -91,19 +92,19 @@
     <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/LENOVO/Documents/GitHub/ProjectARLIDM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/LENOVO/Documents/GitHub/LIDM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/LENOVO/Documents/GitHub/ProjectARLIDM/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/LENOVO/Documents/GitHub/LIDM/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/LENOVO/Documents/GitHub/ProjectARLIDM/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/LENOVO/Documents/GitHub/LIDM/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/LENOVO/Documents/GitHub/ProjectARLIDM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/LENOVO/Documents/GitHub/LIDM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/LENOVO/Documents/GitHub/ProjectARLIDM/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/LENOVO/Documents/GitHub/LIDM/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -307,7 +308,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/LENOVO/Documents/GitHub/ProjectARLIDM/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/LENOVO/Documents/GitHub/LIDM/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -657,19 +658,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{1C61E899-92F3-096A-A197-18ACB347E63F}</Project>
+      <Project>{3603E20A-F6E9-CDF9-5ADF-4A16A1C4E699}</Project>
       <Name>VuforiaScripts</Name>
     </ProjectReference>
     <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{7F64D4E8-3AE1-7E86-A78F-FB377F7496DD}</Project>
+      <Project>{1374CFAE-8740-ED6A-7692-6F31D7918908}</Project>
       <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
     <ProjectReference Include="LeanCommon.csproj">
-      <Project>{C6DBBFC8-69CB-ADFE-17A3-6BF13183C520}</Project>
+      <Project>{0FCAFCC9-4139-E489-D8E9-1DA25E14BF4C}</Project>
       <Name>LeanCommon</Name>
     </ProjectReference>
     <ProjectReference Include="LeanTouch.csproj">
-      <Project>{46C023D8-591B-A0CC-49E7-4BEE03F053CE}</Project>
+      <Project>{83DFFB3D-F118-41CD-2BB4-152B71659BC3}</Project>
       <Name>LeanTouch</Name>
     </ProjectReference>
   </ItemGroup>

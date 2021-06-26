@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: a34c57e71ee735e43b0f1d68a4721e5b
   - enabled: 1
-    path: Assets/Scenes/Quiz Scene.unity
+    path: Assets/Scenes/Hasil Scene.unity
     guid: aa87d4d52391ec64e9052fef5f7d6125
   - enabled: 1
     path: Assets/Scenes/Building With Stone Scene.unity

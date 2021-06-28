@@ -14,6 +14,7 @@ public class BookController : MonoBehaviour
     {
         var selectedBook = EventSystem.current.currentSelectedGameObject.name;
         nameBook = selectedBook;
+        DaftarBacaScript.nameBooks.Add(nameBook);
         Debug.Log(nameBook);
         SceneManager.LoadScene(nameBook+" Scene");
 

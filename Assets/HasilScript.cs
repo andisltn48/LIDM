@@ -23,7 +23,7 @@ public class HasilScript : MonoBehaviour
                     childern.transform.parent = parent.transform;
                     childern.transform.localPosition = new Vector3(0, 0, 0);
                     childern.transform.localScale = new Vector3(3, 3, 3);
-                    childern.GetComponentInChildren<Text>().text = nameBooks[i] + "     (" +nilaiOfBook[j] +")";
+                    childern.GetComponentInChildren<Text>().text = nameBooks[i] + "     ( Point: " +nilaiOfBook[j] +")";
                 }
         }
     }

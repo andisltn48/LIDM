@@ -65,8 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BookController.cs" />
+    <Compile Include="Assets\DaftarBacaScript.cs" />
     <Compile Include="Assets\HasilScript.cs" />
     <Compile Include="Assets\InputScript.cs" />
+    <Compile Include="Assets\KategoriScript.cs" />
+    <Compile Include="Assets\LoginScript.cs" />
     <Compile Include="Assets\NavbarScript.cs" />
     <Compile Include="Assets\QuizScript.cs" />
     <Compile Include="Assets\QuizScriptPanel.cs" />

@@ -7,7 +7,24 @@ using UnityEngine.SceneManagement;
 
 public class Spawner2 : MonoBehaviour
 {
-    
+    void Start()
+    {
+        var name = InputScript.nameObject;
+        //var objectName = Receiver.nameObject;
+        Debug.Log(name);
+        if (Count > 0)
+        {
+            Destroy(GameObject.Find(Object + "(Clone)"), 0);
+        }
+        //pos
+        // Called via:
+        var loadedPrefabResource = LoadPrefabFromFile(name);
+        // Transform prefabResource = LoadPrefabFromFile(name) as Transform;
+        Instantiate(loadedPrefabResource, transform);
+        Object = name;
+        Count = Count + 1;
+    }
+
     private int Count = 0;
     public static string Object = "";
     // Start is called before the first frame update
@@ -22,7 +39,7 @@ public class Spawner2 : MonoBehaviour
         return loadedObject;
     }
 
-    public void Spawnit()
+    public void Reset()
     {
         var name = InputScript.nameObject;
     //var objectName = Receiver.nameObject;

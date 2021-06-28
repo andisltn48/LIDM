@@ -15,7 +15,7 @@ public class InputScript : MonoBehaviour
     {
         nameObject = text.name;
         Debug.Log(nameObject);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
         scene = SceneManager.GetActiveScene().buildIndex;
     }
 }

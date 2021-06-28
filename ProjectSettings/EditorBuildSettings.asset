@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
+    path: Assets/Scenes/Login Scene.unity
+    guid: e7aa3324781c233428ff008908e4565a
+  - enabled: 1
+    path: Assets/Scenes/Harimau Scene.unity
     guid: d6c75410f0619f147a5ee80fae255caa
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
@@ -15,12 +18,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Hasil Scene.unity
     guid: aa87d4d52391ec64e9052fef5f7d6125
   - enabled: 1
-    path: Assets/Scenes/Building With Stone Scene.unity
+    path: Assets/Scenes/Populasi Harimau Sumatra Scene.unity
     guid: 614131989aaa48a43b43de9065e77489
   - enabled: 1
     path: Assets/Scenes/The Black Dragon Scene.unity
     guid: 99674a7d88f009245b7cdc8501b78a07
   - enabled: 1
-    path: Assets/Scenes/Peter and Tree Childern Scene.unity
+    path: Assets/Scenes/Ortu Scene.unity
+    guid: d3bce86970e66494da0269b91bdae0c6
+  - enabled: 1
+    path: Assets/Scenes/HalamanOrtu Scene.unity
+    guid: 08a043df65e6ac84e93734cf4caea2b0
+  - enabled: 1
+    path: Assets/Scenes/HasilOrtu Scene.unity
+    guid: fd79302c50b9a1243901890cacdeec76
+  - enabled: 1
+    path: Assets/Scenes/Harimau Putih Scene.unity
     guid: 9c306fd93d2066c4c87980f584a272f4
+  - enabled: 1
+    path: Assets/Scenes/Siswa Scene.unity
+    guid: f0fb7320416d4e04795d5dacde06182e
+  - enabled: 1
+    path: Assets/Scenes/HalamanSiswa Scene.unity
+    guid: dc318097b1abce040b232e34a80a6310
+  - enabled: 1
+    path: Assets/Scenes/Hewan Scene.unity
+    guid: d0478c5f4039f0f498fb3a67c65c0b97
   m_configObjects: {}
